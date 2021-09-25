@@ -54,22 +54,6 @@ int factorial (int a)
 	return fact;
 }
 
-int menu(void)
-{
-    system("cls");
-	int opcion;
-    printf("Menu de Opciones:\n\n");
-    printf("1. Ingresar Operador A:\n");
-    printf("2. Ingresar Operador B:\n");
-    printf("3. Calcular todas las operaciones:\n");
-    printf("4. Informar Rescultados:\n");
-    printf("5. Salir\n");
-    printf("\nIndique opcion: ");
-    fflush(stdin);
-    scanf("%d", &opcion);
-
-    return opcion;
-}
 
 
 
