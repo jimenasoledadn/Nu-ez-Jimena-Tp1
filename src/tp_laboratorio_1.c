@@ -5,6 +5,7 @@
  *      Author: jimes
  */
 #include <stdio.h>
+#include <stdlib.h>
 #include "tp_laborario_1.h"
 
 int sumar (int a, int b)
@@ -55,7 +56,8 @@ int factorial (int a)
 
 int menu(void)
 {
-    int opcion;
+    system("cls");
+	int opcion;
     printf("Menu de Opciones:\n\n");
     printf("1. Ingresar Operador A:\n");
     printf("2. Ingresar Operador B:\n");
